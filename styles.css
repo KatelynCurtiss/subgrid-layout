@@ -26,7 +26,7 @@ h1 {
     margin: 0 auto; /* Centers grid horizontally on the page */
 }
 .top {
-    background-color: aquamarine;
+    background-color: rgb(219, 60, 60);
     color: black;
     height: 30vh;
     padding: 1.5rem;
@@ -35,7 +35,7 @@ h1 {
     grid-column: 1 / 5; 
 }
 p.side {
-    background-color: orangered;
+    background-color: rgb(250, 154, 154);
     margin: 0;
     padding: 1rem;
     grid-column: 5 / 8;
@@ -50,7 +50,7 @@ ul.side li {
     grid-template-columns: subgrid;
 
     & .content {
-        background-color: rgb(235, 214, 159);
+        background-color: rgb(189, 0, 0);
         padding: 1.5rem;
         grid-column: 1 / 6;
     }
@@ -61,7 +61,7 @@ ul.side li {
 }
 
 aside {
-    background-color: blueviolet;
+    background-color: rgb(244, 144, 146);
     padding: 1.5rem;
 
     grid-column: 9 / 13;
